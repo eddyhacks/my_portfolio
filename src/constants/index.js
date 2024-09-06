@@ -49,7 +49,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Portfolio Website",
-    link:"https://google.com",
+    link:"https://github.com/eddyhacks/portfolio_project",
     image: project1,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
