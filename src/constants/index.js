@@ -83,6 +83,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Jaipur, Rajasthan, 302020",
-  phoneNo: "+91 1234567890",
-  email: "bugsecure24@gmail.com",
+  phoneNo: "+91 6350057390",
+  email: "aditya8122002@gmail.com",
 };

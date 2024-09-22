@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../assets/profile_photo_-removebg-preview.png";
+import aboutImg from "../assets/man-holding-laptop.png";
 import { ABOUT_TEXT } from "../constants";
 import {motion} from "framer-motion";
 
