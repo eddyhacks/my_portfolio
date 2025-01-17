@@ -12,11 +12,11 @@ const Navbar = () => (
             
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-        <a href="https://www.instagram.com/aditya__goyal/" target='_blank'>
+        <a href="https://www.instagram.com/aditya___goyal/" target='_blank'>
         <FaInstagram />
         </a>
 
-        <a href="https://www.github.com/eddyhacks" target='_blank'>
+        <a href="https://www.github.com/adityagoyal08" target='_blank'>
         <FaGithub />
         </a>
         
