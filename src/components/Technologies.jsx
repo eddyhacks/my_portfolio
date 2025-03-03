@@ -1,35 +1,22 @@
 import React from "react";
-import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
-import { animate, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { SiDjango } from "react-icons/si";
-import { DiJavascript } from "react-icons/di";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa6";
-import { SiWireshark } from "react-icons/si";
-import { SiBurpsuite } from "react-icons/si";
 
-// import { FaPython } from "react-icons/fa";
-// import { SiPandas, SiNumpy, SiScikitlearn, SiTensorflow, SiPytorch } from "react-icons/si";
-// import { GrMysql } from "react-icons/gr";
-// import { SiPostgresql } from "react-icons/si";
-// import { SiMicrosoftsqlserver } from "react-icons/si";
-// import { SiTableau } from "react-icons/si";
-// import { SiPowerbi } from "react-icons/si";
-// import { SiJupyter } from "react-icons/si";
-// import { SiAnaconda } from "react-icons/si";
-// import { FaExcel } from "react-icons/fa";
-// import { SiSeaborn } from "react-icons/si";
-// import { SiPlotly } from "react-icons/si";
-// import { SiFlask } from "react-icons/si";
-// import { SiDjango } from "react-icons/si";
-// import { SiStreamlit } from "react-icons/si";
-// import { SiOpenai } from "react-icons/si";
-// import { SiGit } from "react-icons/si";
-// import { SiLinux } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
+import { SiPandas,  } from "react-icons/si";
+import { SiNumpy } from "react-icons/si";
+import { SiScikitlearn } from "react-icons/si";
+import { SiTensorflow } from "react-icons/si";
+import { SiPytorch } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
 
+import { SiPostgresql } from "react-icons/si";
+
+import { SiMicrosoftsqlserver } from "react-icons/si";
+import { SiTableau } from "react-icons/si";
+import { SiPowerbi } from "react-icons/si";
+import { SiJupyter } from "react-icons/si";
+import { SiAnaconda } from "react-icons/si";
 
 const iconvariants = (duration) => ({
   initial: { y: -10 },
@@ -63,7 +50,7 @@ const Technologies = () => (
         animate="animate"
         className="pb-4"
       >
-        <FaHtml5 className="text-5xl text-red-500" />
+        <FaPython className="text-5xl text-red-500" />
       </motion.div>
 
       <motion.div
@@ -72,8 +59,9 @@ const Technologies = () => (
         animate="animate"
         className="pb-4"
       >
-        <FaCss3Alt className="text-5xl text-blue-500" />
+        <SiPandas className="text-5xl text-blue-500" />
       </motion.div>
+
 
       <motion.div
         variants={iconvariants(2)}
@@ -81,7 +69,7 @@ const Technologies = () => (
         animate="animate"
         className="pb-4"
       >
-        <DiJavascript className="text-5xl text-yellow-300" />
+        <SiNumpy className="text-5xl text-yellow-300" />
       </motion.div>
 
       <motion.div
@@ -98,7 +86,7 @@ const Technologies = () => (
         animate="animate"
         className="pb-4"
       >
-        <RiReactjsLine className="text-5xl text-cyan-400" />
+        <SiScikitlearn className="text-5xl text-cyan-400" />
       </motion.div>
 
       <motion.div
@@ -107,7 +95,7 @@ const Technologies = () => (
         animate="animate"
         className="pb-4"
       >
-        <TbBrandNextjs className="text-5xl" />
+        <SiTensorflow className="text-5xl" />
       </motion.div>
 
       <motion.div
@@ -116,7 +104,7 @@ const Technologies = () => (
         animate="animate"
         className="pb-4"
       >
-        <SiMongodb className="text-5xl text-green-500" />
+        <SiPytorch className="text-5xl text-green-500" />
       </motion.div>
       
       <motion.div
@@ -125,7 +113,7 @@ const Technologies = () => (
         animate="animate"
         className="pb-4"
       >
-        <FaNodeJs className="text-5xl text-green-500" />
+        <GrMysql className="text-5xl text-green-500" />
       </motion.div>
 
       <motion.div
@@ -134,7 +122,7 @@ const Technologies = () => (
         animate="animate"
         className="pb-4"
       >
-        <SiWireshark className="text-5xl text-blue-700" />
+        <SiPostgresql className="text-5xl text-blue-700" />
       </motion.div>
 
       <motion.div
@@ -143,8 +131,62 @@ const Technologies = () => (
         animate="animate"
         className="pb-4"
       >
-        <SiBurpsuite className="text-5xl text-orange-300" />
+        <SiMicrosoftsqlserver className="text-5xl text-orange-300" />
       </motion.div>
+
+      <motion.div
+        variants={iconvariants(2.7)}
+        initial="initial"
+        animate="animate"
+        className="pb-4"
+      >
+        <SiTableau className="text-5xl text-orange-300" />
+      </motion.div>
+
+      <motion.div
+        variants={iconvariants(2.7)}
+        initial="initial"
+        animate="animate"
+        className="pb-4"
+      >
+        <SiPowerbi className="text-5xl text-orange-300" />
+      </motion.div>
+
+      <motion.div
+        variants={iconvariants(2.7)}
+        initial="initial"
+        animate="animate"
+        className="pb-4"
+      >
+        <SiJupyter className="text-5xl text-orange-300" />
+      </motion.div>
+
+      <motion.div
+        variants={iconvariants(2.7)}
+        initial="initial"
+        animate="animate"
+        className="pb-4"
+      >
+        <SiAnaconda className="text-5xl text-orange-300" />
+      </motion.div>
+
+      {/* <motion.div
+        variants={iconvariants(2.7)}
+        initial="initial"
+        animate="animate"
+        className="pb-4"
+      >
+        <FaExcel className="text-5xl text-orange-300" />
+      </motion.div> */}
+
+      {/* <motion.div
+        variants={iconvariants(2.7)}
+        initial="initial"
+        animate="animate"
+        className="pb-4"
+      >
+        <SiSeaborn className="text-5xl text-orange-300" />
+      </motion.div> */}
 
 
       
