@@ -11,6 +11,25 @@ import { FaCss3Alt } from "react-icons/fa6";
 import { SiWireshark } from "react-icons/si";
 import { SiBurpsuite } from "react-icons/si";
 
+// import { FaPython } from "react-icons/fa";
+// import { SiPandas, SiNumpy, SiScikitlearn, SiTensorflow, SiPytorch } from "react-icons/si";
+// import { GrMysql } from "react-icons/gr";
+// import { SiPostgresql } from "react-icons/si";
+// import { SiMicrosoftsqlserver } from "react-icons/si";
+// import { SiTableau } from "react-icons/si";
+// import { SiPowerbi } from "react-icons/si";
+// import { SiJupyter } from "react-icons/si";
+// import { SiAnaconda } from "react-icons/si";
+// import { FaExcel } from "react-icons/fa";
+// import { SiSeaborn } from "react-icons/si";
+// import { SiPlotly } from "react-icons/si";
+// import { SiFlask } from "react-icons/si";
+// import { SiDjango } from "react-icons/si";
+// import { SiStreamlit } from "react-icons/si";
+// import { SiOpenai } from "react-icons/si";
+// import { SiGit } from "react-icons/si";
+// import { SiLinux } from "react-icons/si";
+
 
 const iconvariants = (duration) => ({
   initial: { y: -10 },

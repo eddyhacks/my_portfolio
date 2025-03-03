@@ -4,5 +4,8 @@
 @tailwind utilities;
 
 :root{
-  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  /* font-family:monospace; */
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }

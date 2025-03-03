@@ -35,7 +35,7 @@ const About = () => (
 
           {/* Download Resume Button */}
           <a
-            href="/files/Aditya_resume.pdf"
+            href="/files/surya_resume_datascience.pdf"
             download
             className="mt-3 px-6 py-2  bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300"
           >

@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/new_logo.png"
+import logo from "../assets/logo.png"
 import {FaLinkedin} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa";
 import {FaFacebook} from "react-icons/fa";
@@ -12,20 +12,20 @@ const Navbar = () => (
             
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-        <a href="https://www.instagram.com/aditya___goyal/" target='_blank'>
+        {/* <a href="https://www.instagram.com/aditya___goyal/" target='_blank'>
         <FaInstagram />
-        </a>
+        </a> */}
 
-        <a href="https://www.github.com/adityagoyal08" target='_blank'>
+        <a href="https://www.github.com/surya-sgit" target='_blank'>
         <FaGithub />
         </a>
         
-        <a href="https://www.linkedin.com/in/adityagoyal08/" target='_blank'>
+        <a href="https://www.linkedin.com/in/suryaprakashbaid/" target='_blank'>
         <FaLinkedin />
         </a>
-        <a href="https://wwww.facebook.com" target='_blank'>
+        {/* <a href="https://wwww.facebook.com" target='_blank'>
         <FaFacebook />
-        </a>
+        </a> */}
         </div>
     </nav>
 )

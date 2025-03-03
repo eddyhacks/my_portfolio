@@ -49,12 +49,12 @@ const Projects = () => (
             </div>
             <p className="mb-4 text-neutral-400 ">{project.description}</p>
             {project.technologies.map((tech, index) => (
-              <spna
+              <span
                 key={index}
-                className="mr-5 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-cyan-300"
+                className="mx-1 my-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-cyan-300"
               >
                 {tech}
-              </spna>
+              </span>
             ))}
           </motion.div>
         </div>
